@@ -33,20 +33,22 @@ jobs:
           import requests, json, time, os
 
           TARGETS = [
-              "https://market.fliggy.com/item.htm?id=1061217153671",
-              "https://market.fliggy.com/item.htm?id=1061810629923",
-              "https://market.fliggy.com/item.htm?id=1059798887756",
-              "https://market.fliggy.com/item.htm?id=1051443785486",
-              "https://market.fliggy.com/item.htm?id=1060285671386",
-              "https://market.fliggy.com/item.htm?id=1056343383874",
-              "https://market.fliggy.com/item.htm?id=1059036808911",
-              "https://market.fliggy.com/item.htm?id=1045285536976",
-              "https://market.fliggy.com/item.htm?id=1060214802605",
-              "https://market.fliggy.com/item.htm?id=1055272192360",
-              "https://market.fliggy.com/item.htm?id=1057028184538",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1061217153671",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1061810629923",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1059798887756",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1051443785486",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1060285671386",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1056343383874",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1059036808911",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1045285536976",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1060214802605",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1055272192360",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1057028184538",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1067381684786",
+              "https://h5.m.taobao.com/awp/core/detail.htm?id=1071695794375",
           ]
 
-          UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
           repo = os.environ.get("REPO_NAME", "unknown")
           run_id = os.environ.get("RUN_ID", "0")
           run_num = os.environ.get("RUN_NUMBER", "0")
